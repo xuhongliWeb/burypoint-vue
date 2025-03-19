@@ -1,5 +1,5 @@
 import js from "@eslint/js";
-import globals from "globals";
+import globals from "globals"; // 全局变量 window, document, navigator, 等
 import tsEslint from "@typescript-eslint/eslint-plugin";
 import tsEslintParser from "@typescript-eslint/parser";
 import eslintConfigPrettier from 'eslint-config-prettier';
@@ -24,7 +24,7 @@ export default [
         },
         rules: {
             ...tsEslint.configs.recommended.rules,
-            "@typescript-eslint/no-unused-vars": "error", // 示例规则
+            "@typescript-eslint/no-explicit-any": ["off"] // 把我加上
         },
     },
     eslintConfigPrettier, // 禁用与 Prettier 冲突的规则

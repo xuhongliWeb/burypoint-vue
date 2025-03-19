@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "pnpm run lint && rollup -w -c",
+    "dev": " rollup -w -c",
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint"

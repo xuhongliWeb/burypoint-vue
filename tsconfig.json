@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./lib", // 输出目录
     "sourceMap": false, // 是否生成sourceMap
-    "target": "es2015", // 编译目标
+    "target": "es2016", // 编译目标
     "module": "esnext", // 模块类型
     "moduleResolution": "node",
     "allowJs": false, // 是否编辑js文件

@@ -1,5 +1,7 @@
-function add(a: number, b: number): number {
-  return a + b
-}
+export default {
+    install(Vue:unknown,configs:any) {
+        console.log('configs: ', configs);
+        console.log('Vue: ', Vue);
 
-console.log(add(1, 2))
+    }
+}
