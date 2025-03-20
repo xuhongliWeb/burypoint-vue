@@ -2,7 +2,8 @@
   "name": "burypoint-vue",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.min.js",
+  "types": "lib/types/index.d.ts",
   "type": "module",
   "scripts": {
     "dev": " rollup -w -c",
