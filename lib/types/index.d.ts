@@ -1,4 +1,4 @@
 declare const _default: {
-    install(Vue: unknown, configs: any): void;
+    install(Vue: any, configs: any): void;
 };
 export default _default;

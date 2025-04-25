@@ -25,8 +25,6 @@ export default [
     output: {
       dir: './lib',
       format: 'es', // import
-      exports: 'named', // 使用命名导出
-      preserveModules: true, // 保留模块结构
       preserveModulesRoot: 'src', // 源码根目录
       entryFileNames: '[name].min.js',
     },
